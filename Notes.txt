@@ -8,9 +8,21 @@ ALUSRC：
   Reference from:https://tw.answers.yahoo.com/question/index?qid=20121107092830AA9S3Zx
 
 
+
+    ALUOp   Action needed by ALU
+
+    00      Addition (for load and store)
+    01      Subtraction (for beq)
+    10      Determined by funct field (R-type instruction)
+    11      Not used
+
+
+
 More information from Zhihu:
 
 Simple explanation of how 1+1=2 works in computing.
 
 如何通俗的解释计算机是如何实现1+1=2计算的？ - Barbirolli的回答 - 知乎
 https://www.zhihu.com/question/29707696/answer/71747103
+
+
