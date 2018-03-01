@@ -1,0 +1,8 @@
+
+ALUSRC：
+
+  The MIPS architecture add instruction adds either two registers, or a register and a 16-bit immediate value that is encoded into the add instruction itself. 
+
+  ALUSrc controls a mux that determines whether the second operand to the ALU is a register, or the 16-bit immediate value. 
+  
+  Reference from:https://tw.answers.yahoo.com/question/index?qid=20121107092830AA9S3Zx
