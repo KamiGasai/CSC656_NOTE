@@ -33,6 +33,16 @@ ALUSRC：
     10      Determined by funct field (R-type instruction) 
     11      Not used
 
+Opcode	ALUOp	operation 	functField    ALUaction 	    ALU cntl
+LW	    00	  loadWord	  xxxxxx	         add	          010
+SW	    00	  storeWord	  xxxxxx	         add	          010
+BEQ	    01	  branchEqual xxxxxx	       subtract 	      110
+R-type	10	  add	        100000	         add	          010
+R-type	10	  subtract	  100010	       subtract	        110
+R-type	10	  AND	        100100	         and	          000
+R-type	10	  OR	        100101	          or	          001
+R-type	10	  SLT	        101010	    set on less than    111
+
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 More information from Zhihu:
