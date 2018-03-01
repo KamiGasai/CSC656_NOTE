@@ -1,4 +1,20 @@
 
+MIPS Assembly/Instruction Formats:   https://en.wikibooks.org/wiki/MIPS_Assembly/Instruction_Formats#I_Instructions
+
+R-format:
+  e.g.:add $s1, $s2, $s3
+
+opcode	 rs      rt	      rd	    shift(shamt)  	funct
+6 bits	5 bits	5 bits	5 bits   	5 bits	      6 bits
+
+
+I-format:
+  e.g.: addi $s1, $s2, 100
+  
+J-format:
+  e.g.: jump LABEL
+
+----------------------------------------------------------------------------------------------------------------------------------------
 ALUSRC：
 
   The MIPS architecture add instruction adds either two registers, or a register and a 16-bit immediate value that is encoded into the add instruction itself. 
@@ -8,15 +24,16 @@ ALUSRC：
   Reference from:https://tw.answers.yahoo.com/question/index?qid=20121107092830AA9S3Zx
 
 
+----------------------------------------------------------------------------------------------------------------------------------------
 
     ALUOp   Action needed by ALU
 
     00      Addition (for load and store)
     01      Subtraction (for beq)
-    10      Determined by funct field (R-type instruction)
+    10      Determined by funct field (R-type instruction) 
     11      Not used
 
-
+------------------------------------------------------------------------------------------------------------------------------------------
 
 More information from Zhihu:
 
