@@ -6,3 +6,11 @@ ALUSRC：
   ALUSrc controls a mux that determines whether the second operand to the ALU is a register, or the 16-bit immediate value. 
   
   Reference from:https://tw.answers.yahoo.com/question/index?qid=20121107092830AA9S3Zx
+
+
+More information from Zhihu:
+
+Simple explanation of how 1+1=2 works in computing.
+
+如何通俗的解释计算机是如何实现1+1=2计算的？ - Barbirolli的回答 - 知乎
+https://www.zhihu.com/question/29707696/answer/71747103
